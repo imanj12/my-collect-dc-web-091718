@@ -1,6 +1,6 @@
 def my_collect(array)
   new_array = []
-  i = array.length - 1
+  i = 0
   while i < array.length
     new_array.push(yield array[i])
     i += 1
